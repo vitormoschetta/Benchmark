@@ -15,7 +15,10 @@ Executar teste:
 ```
 dotnet run -c Release
 ```
+<br>
 
+Referências:
 
-<https://github.com/dotnet/BenchmarkDotNet>
+<https://github.com/dotnet/BenchmarkDotNet>  
+
 <https://benchmarkdotnet.org/articles/guides/getting-started.html>

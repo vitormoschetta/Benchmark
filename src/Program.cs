@@ -7,7 +7,7 @@ namespace src
     class Program
     {
         static void Main(string[] args) {
-            var summary = BenchmarkRunner.Run<DataTableMonitor>();            
+            var summary = BenchmarkRunner.Run<Struct_vs_Class>();            
         }
     }
 }

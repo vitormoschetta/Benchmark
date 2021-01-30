@@ -8,7 +8,7 @@ Intel Core i5-3330 CPU 3.00GHz (Ivy Bridge), 1 CPU, 4 logical and 4 physical cor
 
 
 ```
-|                  Method | Number |       Mean |     Error |    StdDev |     Median |
-|------------------------ |------- |-----------:|----------:|----------:|-----------:|
-|        NumeroAoQuadrado |   1000 |  0.0738 ns | 0.0453 ns | 0.0445 ns |  0.0530 ns |
-| NumeroAoQuadradoMathPow |   1000 | 47.9485 ns | 0.8845 ns | 0.8273 ns | 47.7438 ns |
+|     Method |      Mean |    Error |   StdDev |  Gen 0 | Gen 1 | Gen 2 | Allocated |
+|----------- |----------:|---------:|---------:|-------:|------:|------:|----------:|
+| TestStruct |  52.36 ns | 1.080 ns | 1.244 ns | 0.0587 |     - |     - |     184 B |
+|  TestClass | 117.04 ns | 2.363 ns | 4.138 ns | 0.1351 |     - |     - |     424 B |

@@ -4,7 +4,7 @@ using src.Models;
 namespace src
 {
     [MemoryDiagnoser]
-    public class DataTableMonitor
+    public class Struct_vs_Class
     {
         [Benchmark]
         public bool TestStruct()

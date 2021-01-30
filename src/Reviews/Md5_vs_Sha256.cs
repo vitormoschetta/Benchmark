@@ -4,7 +4,7 @@ using BenchmarkDotNet.Attributes;
 
 namespace src
 {
-    public class Md5VsSha256
+    public class Md5_vs_Sha256
     {
         private const int N = 10000;
         private readonly byte[] data;
@@ -12,7 +12,7 @@ namespace src
         private readonly SHA256 sha256 = SHA256.Create();
         private readonly MD5 md5 = MD5.Create();
 
-        public Md5VsSha256()
+        public Md5_vs_Sha256()
         {
             data = new byte[N];
             new Random(42).NextBytes(data);
